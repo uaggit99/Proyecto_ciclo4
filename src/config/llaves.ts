@@ -1,3 +1,4 @@
+//Comentario de Prueba de sincronizacion
 export namespace Llaves{
   export const claveJWT = 'AsignarClave';
   //export const urlServicioNotificaciones = 'http://localhost:5000';
