@@ -1,4 +1,4 @@
-import {Entity, model, property, belongsTo} from '@loopback/repository';
+import {belongsTo, Entity, model, property} from '@loopback/repository';
 import {Parque} from './parque.model';
 
 @model()
@@ -12,7 +12,7 @@ export class Usuario extends Entity {
 
   @property({
     type: 'date',
-    required: true,
+    required: false,
   })
   fecha: string;
 
@@ -23,10 +23,10 @@ export class Usuario extends Entity {
   nombres: string;
 
   @property({
-    type: 'number',
+    type: 'string',
     required: true,
   })
-  apellidos: number;
+  apellidos: string;
 
   @property({
     type: 'string',
@@ -59,7 +59,7 @@ export class Usuario extends Entity {
 
   @property({
     type: 'string',
-    required: true,
+    required: false,
   })
   clave: string;
 

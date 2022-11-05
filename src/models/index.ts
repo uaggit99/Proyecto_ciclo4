@@ -9,3 +9,4 @@ export * from './compras.model';
 export * from './factura.model';
 export * from './ciudad.model';
 export * from './departamento.model';
+export * from './credenciales.model';
